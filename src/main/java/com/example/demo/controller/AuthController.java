@@ -54,6 +54,11 @@ public class AuthController {
     logger.info("test1");
     logger.info("test1");
     // 기억하기를 체크하면 이메일을 기억해줄게
+    logger.info("test1");
+    logger.info("test1");
+    logger.info("test1");
+    logger.info("test1");
+    logger.info("test1");
     return "redirect:/index.jsp"; // 배포위치가 webapp이다.
   }
   private boolean loginCheck(String mem_email, String mem_pw2) {
