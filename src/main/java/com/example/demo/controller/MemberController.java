@@ -8,4 +8,7 @@ import org.springframework.stereotype.Controller;
 public class MemberController {
   Logger logger = LoggerFactory.getLogger(MemberController.class);
   
+  public MemberController(){
+    logger.info("test1-2");
+  }
 }
