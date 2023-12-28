@@ -20,7 +20,9 @@ public class AuthController {
   @GetMapping("loginForm")
   public String loginForm(){
     logger.info("loginForm");
-
+    logger.info("test33");
+    logger.info("test33");
+    logger.info("test33");
     return "redirect:/auth/loginForm.jsp"; // 배포위치가 webapp이다.
   }
   @PostMapping("login")

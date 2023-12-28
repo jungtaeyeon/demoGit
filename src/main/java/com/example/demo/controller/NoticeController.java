@@ -96,6 +96,11 @@ public class NoticeController {
   @GetMapping("noticeDelete")
   public String noticeDelete(int n_no){ // 파라미터에 n_no, n_title, n_content, n_writer 이런식으로 모두 선언하기 보다는.. Map
     logger.info("noticeDelete 호출");
+    logger.info("test333");
+    logger.info("test333");
+    logger.info("test333");
+    logger.info("test333");
+    logger.info("test333");
     int result = 0;
     String path = null;
     result = noticeLogic.noticeDelete(n_no);
