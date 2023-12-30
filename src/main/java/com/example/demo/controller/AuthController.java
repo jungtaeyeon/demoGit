@@ -1,6 +1,7 @@
 package com.example.demo.controller;
 
 import java.net.URLEncoder;
+import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -65,5 +66,11 @@ public class AuthController {
   }
   private boolean loginCheck(String mem_email, String mem_pw2) {
     return "kiwi@hot.com".equals(mem_email) && "123".equals(mem_pw2);
+  }
+
+  // test2 수정 -1
+  @GetMapping
+  public String authInsert(){
+    return null;
   }
 }
