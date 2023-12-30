@@ -19,4 +19,9 @@ public class MemberController {
   public String memberInsert(Map<String, Object> map){
     return null;
   }
+  // test1 브랜치 작성 -2
+  @GetMapping
+  public String memberUdate(Map<String, Object> map){
+    return null;
+  }
 }
