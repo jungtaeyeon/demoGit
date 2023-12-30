@@ -24,4 +24,9 @@ public class MemberController {
   public String memberUdate(Map<String, Object> map){
     return null;
   }
+   // test1 브랜치 작성 -3
+  @GetMapping
+  public String memberDelete(Map<String, Object> map){
+    return null;
+  }
 }
