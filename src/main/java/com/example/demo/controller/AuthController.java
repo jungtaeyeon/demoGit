@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.fasterxml.jackson.annotation.ObjectIdGenerators.StringIdGenerator;
+
 import jakarta.servlet.http.HttpServletResponse;
 
 @Controller
@@ -65,5 +67,8 @@ public class AuthController {
   }
   private boolean loginCheck(String mem_email, String mem_pw2) {
     return "kiwi@hot.com".equals(mem_email) && "123".equals(mem_pw2);
+  }
+  public String authUpdate(){
+    return null;
   }
 }
